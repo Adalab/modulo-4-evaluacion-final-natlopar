@@ -8,4 +8,4 @@ yearAlbum INT not null,
 `length` varchar(25) not null,
 gendre varchar(25) not null
 );
-
+INSERT INTO `favourite_music`.`album` (`nameAlbum`, `nameBand`, `yearAlbum`, `length`, `gendre`) VALUES ('in utero', 'nirvana', '1993', '41:12', 'grunge');
